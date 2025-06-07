@@ -28,15 +28,15 @@ h1{
     position: relative;
     height: 50%;
     top: 25%;
-    left: 15rem;
-    width: 20rem;
+    left: 15%;
+    width: 20%;
     border-radius: 1rem;
     border: none;
 }
 .nav_list{
     display: flex;
     position: relative;
-    left: 18rem;
+    left: 18%;
     top: 30%;
     list-style: none;
     gap: 1.5rem;
@@ -50,7 +50,7 @@ a{
 .register_button{
     height: 50%;
     position: relative;
-    left: 18rem;
+    left: 18%;
     top: 25%;
     cursor: pointer;
     width: 6rem;
@@ -119,7 +119,7 @@ img{
 .futured_images{
     top: 2rem;
     height: 30rem;
-    width: 20rem;
+    width: 25%;
     border-radius: 2rem;
     position: relative;
 
@@ -146,11 +146,11 @@ img{
     top: 1rem;
 }
 footer{
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    top: 130rem;
+    top: 22rem;
     background-color: #3f3826;
 }
 .foot_left{
@@ -189,7 +189,7 @@ footer{
 .register_button:hover{
     height: 50%;
     position: relative;
-    left: 18rem;
+    left: 18%;
     top: 25%;
     cursor: pointer;
     width: 6rem;
@@ -201,4 +201,194 @@ footer{
 }
 .nav_li:hover{
     color: black;
+}
+@media screen and (max-width:375.9px) {
+    *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 6rem;
+    background-color: #035a52;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: relative;
+    top: 30%;
+    color: #fcfaee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.register_button{
+    position: relative;
+    left: 1.5rem;
+}
+.input1{
+    display: none;
+}
+.nav_list{
+    display: none;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 238, 216);
+    gap: 5rem;
+    position: relative;
+    top: 0.2rem;
+    width: 100%;
+    height: 100%;
+}
+.container_left{
+    font-size: 2rem;
+    position: relative;
+    text-align: start;
+    top: 2rem;
+    left: 1rem;
+    font-size: 1.5rem;
+}
+img{
+    position: relative;
+    top: 2rem;
+    width: 90%;
+    left: 5%;
+    border-radius: 50%;
+}
+.container_right{
+    position: relative;
+    top: -2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.section2{
+    width: 100%;
+    position: relative;
+    top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.section2_button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    left: 0.5rem;
+    align-items: center;
+}
+.button{
+    height: 3rem;
+    width: 4rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    background-color: rgb(255, 26, 26);
+    color: #fcfaee;
+    cursor: pointer;
+}
+.section3{
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.futured_images{
+    display: flex;
+    flex-direction: column;
+    top: 2rem;
+    height: 30rem;
+    width: 70%;
+    border-radius: 2rem;
+    position: relative;
+
+}
+.right{
+    position: relative;
+    text-align: center;
+    top: 15rem;
+    left: 2rem;
+    text-align: start;
+    font-size: 2rem;
+}
+.left{
+    position: relative;
+    font-size: 2rem;
+}
+.profile_img{
+    position: relative;
+    top: 2rem;
+    width: 4rem;
+}
+.profile_more{
+    display: none;
+}
+footer{
+    position: relative;
+    top: 20rem;
+    width: 100%;
+    height: 15rem;
+    background-color: #3f3826;
+}
+a{
+    text-decoration: none;
+    color: #fcfaee;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.foot_left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.foot_right{
+    display: none;
+}
+.foot_list1{
+    position: relative;
+    font-size: 1.5rem;
+    top: 2rem;
+    left: 1.5rem;
+    color: black;
+}
+.foot_list2{
+    display: none;
+}
+.foot_h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    top: 1rem;
+    left: 1.5rem;
+}
+.foot_info{
+    display: none;
+}
+.button:hover{
+    border-radius: 1rem;
+    border: none;
+    font-size: 2rem;
+    background-color: rgb(67, 67, 67);
+    color: #fcfaee;
+    cursor: pointer;
+}
+.register_button:hover{
+    height: 50%;
+    position: relative;
+    left: 1.5rem;
+    cursor: pointer;
+    width: 4rem;
+    font-size: 1rem;
+    background-color:  rgb(240, 49, 49);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+
 }

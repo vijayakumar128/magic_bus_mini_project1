@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    background-color: #035a52;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    position: relative;
+    top: 25%;
+    color: #fcfaee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+.input1{
+    position: relative;
+    height: 50%;
+    top: 25%;
+    left: 15rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+}
+.nav_list{
+    display: flex;
+    position: relative;
+    left: 18rem;
+    top: 30%;
+    list-style: none;
+    gap: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #fcfaee;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.register_button{
+    height: 50%;
+    position: relative;
+    left: 18rem;
+    top: 25%;
+    cursor: pointer;
+    width: 6rem;
+    background-color: #bdf806;
+    border-radius: 0.5rem;
+    border: none;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 238, 216);
+    gap: 5rem;
+    position: relative;
+    top: 0.2rem;
+    width: 100%;
+    height: 90vh;
+}
+.container_left{
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    font-size: 3rem;
+}
+img{
+    position: relative;
+    top: 2rem;
+    border-radius: 50%;
+}
+.container_right{
+    position: relative;
+    font-size: 3.5rem;
+    top: 7rem;
+}
+.section2{
+    width: 100%;
+    position: relative;
+    top: 12rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.section2_button{
+    position: relative;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    top: 2rem;
+    left: 20%;
+}
+.button{
+    height: 4rem;
+    width: 8rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: rgb(255, 26, 26);
+    color: #fcfaee;
+    cursor: pointer;
+}
+.section3{
+    position: relative;
+    top: 20rem;
+    display: flex;
+    width: 100%;
+}
+.futured_images{
+    top: 2rem;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 2rem;
+    position: relative;
+
+}
+.right{
+    position: relative;
+    text-align: center;
+    left: 5rem;
+    font-size: 3rem;
+}
+.left{
+    position: relative;
+    left: 2rem;
+    top: 5em;
+    font-size: 2rem
+}
+.profile_img{
+    position: relative;
+    top: 2rem;
+}
+.profile_more{
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 130rem;
+    background-color: #3f3826;
+}
+.foot_left{
+    position: relative;
+    top: 2rem;
+    left: -15rem;
+}
+.foot_right{
+    position: relative;
+    top: 2rem;
+    left: -30rem;
+}
+.foot_list1{
+    position: relative;
+    font-size: 2rem;
+    list-style: none;
+}
+.foot_list2{
+    position: relative;
+    font-size: 2rem;
+    list-style: none;
+}
+.foot_h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    top: 2.5rem;
+}
+.button:hover{
+    border-radius: 1rem;
+    border: none;
+    font-size: 2rem;
+    background-color: rgb(67, 67, 67);
+    color: #fcfaee;
+    cursor: pointer;
+}
+.register_button:hover{
+    height: 50%;
+    position: relative;
+    left: 18rem;
+    top: 25%;
+    cursor: pointer;
+    width: 6rem;
+    font-size: 1rem;
+    background-color:  rgb(240, 49, 49);
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+}
+.nav_li:hover{
+    color: black;
+}

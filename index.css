@@ -69,7 +69,7 @@ a{
     height: 90vh;
 }
 .container_left{
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 2rem;
     left: 2rem;
@@ -82,7 +82,7 @@ img{
 }
 .container_right{
     position: relative;
-    font-size: 3.5rem;
+    font-size: 3rem;
     top: 7rem;
 }
 .section2{
@@ -248,7 +248,7 @@ h1{
     height: 100%;
 }
 .container_left{
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     text-align: start;
     top: 2rem;
@@ -265,7 +265,7 @@ img{
 .container_right{
     position: relative;
     top: -2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .section2{
